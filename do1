@@ -1,0 +1,3 @@
+export MAVEN_OPTS="-Xmx8048M -Xss228M  -XX:MetaspaceSize=512M -XX:MaxMetaspaceSize=1024M "
+#mvn site  -DskipTests -Dmaven.javadoc.skip=true
+mvn site -Darguments="-DskipTests -Dmaven.javadoc.skip=true" -DskipTests -Dmaven.javadoc.skip=true
